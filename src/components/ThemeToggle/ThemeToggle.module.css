@@ -1,0 +1,23 @@
+.themeToggle {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: inherit;
+  font-weight: normal;
+  font-family: inherit;
+  outline: none;
+}
+
+.themeToggle:hover {
+  background-color: rgba(255,255,255,0.1);
+}
+
+.themeToggle:focus {
+  outline: none;
+}
+
