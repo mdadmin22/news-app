@@ -5,7 +5,10 @@ const Navbar = ({ isDark, onThemeToggle }) => {
   return (
     <nav className={styles.navbar}>
       <div className={styles.navContent}>
-        <h1 className={styles.logo}>📰 NewsApp</h1>
+        <h1 className={styles.logo}>
+          <span className={styles.logoIcon}>📰</span>
+          InfoHub
+        </h1>
         <div className={styles.navLinks}>
           <a href="#" className={styles.link}>Inicio</a>
           <a href="#" className={styles.link}>Noticias</a>

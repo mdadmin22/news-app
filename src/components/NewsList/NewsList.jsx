@@ -17,7 +17,7 @@ const NewsList = ({ news, onNewsClick, onLike, onAddComment }) => {
   return (
     <div className={styles.newsList}>
       <div className={styles.titleContainer}>
-        <h2 className={styles.title}>Últimas Noticias</h2>
+        <h2 className={styles.title}>📈 Noticias de Hoy</h2>
         <p className={styles.date}>{getCurrentDate()}</p>
       </div>
       <div className={styles.newsGrid}>
